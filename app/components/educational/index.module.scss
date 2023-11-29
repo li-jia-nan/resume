@@ -1,0 +1,46 @@
+.educational {
+  width: 780px;
+  margin: 0 auto;
+  .title {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid #404040;
+    line-height: 32px;
+    margin: 8px 0;
+  }
+  .universitys {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .row1 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #404040;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 700;
+      span {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+    }
+    .row2 {
+      color: #404040;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}

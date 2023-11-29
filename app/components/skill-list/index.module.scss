@@ -1,0 +1,29 @@
+.socialInfo {
+  width: 780px;
+  margin: 0 auto;
+  .title {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid #404040;
+    line-height: 32px;
+    margin: 8px 0;
+  }
+  ul {
+    margin: 0;
+    width: calc(100% - 20px);
+    padding-inline-start: 20px;
+    li {
+      color: #404040;
+      font-size: 15px;
+      font-weight: 400;
+      text-align: left;
+      line-height: 24px;
+      span {
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+}

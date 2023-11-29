@@ -1,0 +1,33 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.11.5",
+    "clsx": "^2.0.0",
+    "geist": "^1.2.0",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "prettier": "^3.1.0",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
