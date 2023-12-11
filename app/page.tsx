@@ -6,7 +6,6 @@ import {
   SkillList,
   Introduction,
   Educational,
-  OpenSource,
   WorkExperience,
   ProjectExperience,
   Thanks,
@@ -15,12 +14,11 @@ import {
 const App: NextPage = () => (
   <>
     <PersonInfo />
-    <CommitGraph />
+    {/* <CommitGraph /> */}
     <Introduction />
     <SocialInfo />
     <Educational />
     <SkillList />
-    <OpenSource />
     <ProjectExperience />
     <WorkExperience />
     <Thanks />

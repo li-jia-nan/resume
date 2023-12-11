@@ -41,7 +41,7 @@ export const ProjectExperience: React.FC = () => {
           DTable 官网项目的<span className="ml-1">owner</span>，独立开发
         </div>
         <div className={styles.level3}>
-          DTable 后台管理项目的<span className="ml-1">owner</span>，独立开发
+          DTable 后台管理的<span className="ml-1">owner</span>，独立开发
         </div>
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
@@ -133,20 +133,24 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
-          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">500 个</span>PR
+          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">530 个</span>
+          PR，向 antd 贡献了
+          <span className="mx-1">五个新组件</span>、参与了部分组件的
+          <span className="mx-1">变体开发</span>
         </div>
         <div className={styles.level3}>
-          作为社区开发主力，向 antd 贡献了
-          <span className="mx-1">5个新组件</span>，参与了<span className="mx-1">css var 迁移</span>
+          作为社区开发主力，参与了<span className="mx-1">css var 迁移</span>
           、参与了
-          <span>测试库迁移</span>，并且使用 typescript 重构了代码中大部分js，
-          <span>将 ts 覆盖率提升了20%</span>
+          <span className="mx-1">测试库迁移</span>，将所有的
+          <span className="mx-1">class 组件</span>重构为<span className="mx-1">function 组件</span>
+          ，并且使用 Typecript 重构了大部分 JavaScript， 将仓库的
+          <span className="mx-1">ts 覆盖率提升了20%</span>
         </div>
         <div className={styles.level3}>
           主动承担更多社区任务：利⽤业余时间主动承担 antd 社区更多的任务，如：解决⽤户提问、修复
           <span className="ml-1">issue Bug</span>、并且参与<span className="ml-1">code review</span>
-          、协助贡献者完成 PR、提出多个
-          <span className="mx-1">有建设性的 RFC</span>并独⽴完成相关⼯作等
+          、协助贡献者完成 PR、
+          <span className="mx-1">深度参与各种 RFC</span>的制定与落地，并独⽴完成相关⼯作等
         </div>
         <div className={styles.level2}>遇到的挑战</div>
         <div className={styles.level3}>
