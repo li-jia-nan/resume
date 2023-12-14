@@ -1,33 +1,18 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./index.module.scss";
-
-// const projectList = [
-//   {
-//     name: "Yoycol",
-//     description: [
-//       "该项目是一款面向海外市场的跨境电商服务平台，实现了“可见即可得”，为定制客户提供了更多的内容和流量",
-//       "该项目使用 React + Typescript + antd 作为主要技术栈",
-//       "在职期间对 package.json 中的部分框架和库做了升级和兼容，并且完成 90% 页面移动端适配",
-//       "集成 Sentry 并通过开发的错误通知服务，实现异常上报功能，及时处理错误，使得项目异常减少了 80%",
-//       "接入了第三方插件 swagger-axios-codepen，通过 swagger 接口文档自动生成接口函数，并且自动注入，为后续团队开发周期节约了大概 20% 时间",
-//       "对代码进行全路由分割，提升用户体验，配合 chunk 分包加载，带来比较大的性能收益，FCP 时间从平均 4.1s 下降到平均 1.1s，根据小样本数据统计，北美地区平均加载速度从 5.7s 下降到 2.7s，马来西亚、越南地区平均加载速度从 4.5s 下降到 2.1s",
-//     ],
-//   },
-// ];
+import { ProjectOutlined } from "@ant-design/icons";
 
 export const ProjectExperience: React.FC = () => {
   return (
     <div className={clsx(styles.projects)}>
       <div className={clsx(styles.title)}>项目经历</div>
       <div className={styles.project}>
-        <div className={styles.level1}>
-          DTable 协同文档<span>（技术负责⼈）</span>
-        </div>
+        <div className={styles.level1}>DTable 协同文档</div>
         <div className={styles.level2}>背景</div>
         <div className={styles.level3}>
           为提升袋鼠云旗下易知微事业部<span className="ml-1">商业化变现</span>
-          ，扩展产品新品类“协同文档”，在该品类团队⽆前端技术积累，⽆法⽀撑业务需求压⼒，急需⼀个规范、功能完整、⾃定义灵活、技术栈契合且持续迭代的内部协同工具，⽬前市⾯上
+          ，扩展产品新品类“协同文档”，在该品类团队⽆前端技术积累，⽆法⽀撑业务需求压⼒，急需⼀个规范、功能完整、⾃定义程度高、技术栈契合且持续迭代的内部协同工具，⽬前市⾯上
           <span className="ml-1">没有满⾜需求的库</span>，故决定
           <span className="mx-1">⾃研协同文档</span>
           以满⾜业务需求及⾼扩展性和维护性
@@ -97,18 +82,54 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level3}>
           集团内<span className="ml-1">⽬前唯⼀提交准备商业化的⼤前端领域项⽬</span>
         </div>
-        {/* {projectList.map<React.ReactNode>(project => (
-        <div className={styles.company} key={project.name}>
-          <div className={styles.row1}>
-            <div className={styles.name}>{project.name}</div>
-          </div>
-          <ul>
-            {project.description.map<React.ReactNode>(item => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+      </div>
+      <div className={styles.project}>
+        <div className={styles.level1}>Yoycol</div>
+        <div className={styles.level2}>背景</div>
+        <div className={styles.level3}>
+          这是一款面向海外市场的大型跨境电商服务平台。拥有数百万用户和上万种商品。实现了“可见即可得”，为定制客户提供了更多的内容和流量。
         </div>
-      ))} */}
+        <div className={styles.level2}>角色</div>
+        <div className={styles.level3}>主力成员</div>
+        <div className={styles.level2}>行动</div>
+        <div className={styles.level3}>
+          在职期间对<span className="mx-1">package.json</span>
+          中的大部分框架和库做了升级和兼容，并且完成
+          <span className="mx-1">90%页面</span>
+          移动端适配
+        </div>
+        <div className={styles.level3}>
+          集成<span className="mx-1">Sentry</span>
+          并通过开发的错误通知服务，实现<span className="mx-1">异常上报</span>
+          功能，及时处理错误，使得项目异常<span className="ml-1">减少了 80%</span>
+        </div>
+        <div className={styles.level3}>
+          接入了第三方插件<span className="mx-1">swagger-axios-codepen</span>，通过 swagger
+          接口文档自动生成接口函数，并且自动注入，为后续团队开发周期节约了大概
+          <span className="mx-1">20%</span>时间
+        </div>
+        <div className={styles.level3}>
+          对代码进行<span className="ml-1">全路由分割</span>，提升用户体验，配合
+          <span className="ml-1">chunk 分包加载</span>，带来比较大的性能收益，
+          <span className="mr-1">FCP 时间</span>从平均<span className="mx-1">4.1s</span>下降到平均
+          <span className="ml-1">1.1s</span>
+        </div>
+        <div className={styles.level2}>遇到的挑战</div>
+        <div className={styles.level3}>
+          素材上传功能，接入<span className="mx-1">ImageMagick</span>的 wasm 版本，读取 icc
+          配置文件，实现了在线的
+          <span className="ml-1">cmyk 转 rgb</span>，从而解决了浏览器不支持直接解析 cmyk
+          格式的图片的问题
+        </div>
+        <div className={styles.level2}>结果</div>
+        <div className={styles.level3}>
+          <span className="mx-1">全路由分割</span>配合
+          <span className="mx-1">分包加载</span>
+          带来巨大提升，根据小样本数据统计，北美地区平均加载速度从
+          <span className="mx-1">5.7s</span>
+          下降到<span className="ml-1">2.7s</span>，马来西亚、越南地区平均加载速度从
+          <span className="mx-1">4.5s</span>下降到 <span className="ml-1">2.1s</span>
+        </div>
       </div>
       <div className={styles.project}>
         <div className={styles.level1}>
@@ -116,10 +137,9 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level2}>背景</div>
         <div className={styles.level3}>
-          由于公司绝⼤多数业务系统，⽆论是业务中台、配置后台、saas官⽹、移动端、Electron
-          应⽤，都在使⽤ antd
-          系列的组件库，有时候遇到问题，或是总结的⼀些新特性，希望能够在官⽅库中得到⽀持，⽅便更多的业务团队能够收益，故参与了
-          antd 项⽬的开源贡献，通过业务驱动开源，并且将业务反馈给开源
+          由于公司绝⼤多数业务系统都在使⽤ antd
+          系列的组件库，有时候遇到问题或是总结的⼀些新特性，希望能够在官⽅库中得到⽀持，⽅便更多的业务团队能够收益，故参与了
+          antd 项⽬的开源贡献，通过业务驱动开源
         </div>
         <div className={styles.level2}>角色</div>
         <div className={styles.level3}>
@@ -135,13 +155,13 @@ export const ProjectExperience: React.FC = () => {
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
           <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">530 个</span>
           PR，向 antd 贡献了
-          <span className="mx-1">五个新组件</span>、参与了部分组件的
-          <span className="mx-1">变体开发</span>
+          <span className="mx-1">五个新组件</span>
         </div>
         <div className={styles.level3}>
-          作为社区开发主力，参与了<span className="mx-1">css var 迁移</span>
+          作为社区开发主力，参与了部分组件的
+          <span className="ml-1">变体开发</span>、参与了<span className="mx-1">css var 迁移</span>
           、参与了
-          <span className="mx-1">测试库迁移</span>，将所有的
+          <span className="mx-1">测试库迁移</span>，将所有
           <span className="mx-1">class 组件</span>重构为<span className="mx-1">function 组件</span>
           ，并且使用 Typecript 重构了大部分 JavaScript， 将仓库的
           <span className="mx-1">ts 覆盖率提升了20%</span>
@@ -170,18 +190,6 @@ export const ProjectExperience: React.FC = () => {
           为公司各⼤业务系统
           <span className="ml-1">解决了众多已知问题和提供了众多⽅便快捷的新特性</span>
         </div>
-        {/* {projectList.map<React.ReactNode>(project => (
-        <div className={styles.company} key={project.name}>
-          <div className={styles.row1}>
-            <div className={styles.name}>{project.name}</div>
-          </div>
-          <ul>
-            {project.description.map<React.ReactNode>(item => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      ))} */}
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ import {
 const App: NextPage = () => (
   <>
     <PersonInfo />
-    {/* <CommitGraph /> */}
+    <CommitGraph />
     <Introduction />
     <SocialInfo />
     <Educational />
