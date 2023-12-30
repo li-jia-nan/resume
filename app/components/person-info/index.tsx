@@ -1,5 +1,5 @@
 import React from "react";
-import { MailOutlined, PhoneOutlined, WechatOutlined } from "@ant-design/icons";
+import { PhoneOutlined, WechatOutlined, MailOutlined } from "@ant-design/icons";
 import styles from "./index.module.scss";
 
 export const PersonInfo: React.FC = () => {
