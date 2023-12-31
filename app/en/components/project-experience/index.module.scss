@@ -1,0 +1,54 @@
+.projects {
+  width: 780px;
+  margin: 0 auto;
+  .title {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid #404040;
+    line-height: 32px;
+    margin: 8px 0;
+  }
+  .project {
+    .level1 {
+      font-size: 18px;
+      line-height: 32px;
+      color: #404040;
+      font-weight: 700;
+      margin-top: 20px;
+      span {
+        color: #404040;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 24px;
+      }
+    }
+    .level2 {
+      font-size: 16px;
+      line-height: 32px;
+      color: #404040;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    .level3 {
+      font-size: 15px;
+      line-height: 24px;
+      color: #404040;
+      position: relative;
+      font-weight: 400;
+      margin-left: 20px;
+      &::before {
+        content: "❀";
+        position: absolute;
+        color: #404040;
+        left: -20px;
+      }
+      span {
+        color: #f5222d;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.thanks {
+  width: 780px;
+  margin: 0 auto;
+  .title {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid #404040;
+    line-height: 32px;
+    margin: 8px 0;
+  }
+  .item {
+    color: #404040;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+  }
+}

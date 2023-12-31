@@ -9,7 +9,7 @@ import {
   WorkExperience,
   ProjectExperience,
   Thanks,
-} from "../components";
+} from "./components";
 
 const App: NextPage = () => (
   <>
