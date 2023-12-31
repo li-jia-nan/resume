@@ -4,13 +4,12 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import React from "react";
 import clsx from "clsx";
-import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "栗嘉男-前端-四年",
-  description: "个人简历",
+  title: "lijianan-FrontEnd-fourYears",
+  description: "resume",
 };
 
 function RootLayout({ children }: React.PropsWithChildren) {
