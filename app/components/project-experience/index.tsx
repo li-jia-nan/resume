@@ -152,7 +152,7 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
-          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">540 个</span>
+          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">550 个</span>
           PR，向 antd 贡献了
           <span className="mx-1">五个新组件</span>
         </div>
