@@ -11,7 +11,7 @@ export const SocialInfo: React.FC = () => {
   return (
     <div className={clsx(styles.socialInfo)}>
       <div className={styles.title}>社交信息</div>
-      {dataLst.map(item => (
+      {dataLst.map<React.ReactNode>(item => (
         <div className={styles.item} key={item.name}>
           {item.name}：
           <a href={item.link} target="_blank">

@@ -5,10 +5,10 @@ import styles from "./index.module.scss";
 export const ProjectExperience: React.FC = () => {
   return (
     <div className={clsx(styles.projects)}>
-      <div className={clsx(styles.title)}>项目经历</div>
+      <div className={clsx(styles.title)}>Project experience</div>
       <div className={styles.project}>
-        <div className={styles.level1}>DTable 协同文档</div>
-        <div className={styles.level2}>背景</div>
+        <div className={styles.level1}>DTable</div>
+        <div className={styles.level2}>Project background</div>
         <div className={styles.level3}>
           为提升袋鼠云旗下易知微事业部<span className="ml-1">商业化变现</span>
           ，扩展产品新品类“协同文档”，在该品类团队⽆前端技术积累，⽆法⽀撑业务需求压⼒，急需⼀个规范、功能完整、⾃定义程度高、技术栈契合且持续迭代的内部协同工具，⽬前市⾯上
@@ -80,54 +80,6 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level3}>
           集团内<span className="ml-1">⽬前唯⼀提交准备商业化的⼤前端领域项⽬</span>
-        </div>
-      </div>
-      <div className={styles.project}>
-        <div className={styles.level1}>Yoycol</div>
-        <div className={styles.level2}>背景</div>
-        <div className={styles.level3}>
-          这是一款面向海外市场的大型跨境电商服务平台。拥有数百万用户和上万种商品。实现了“可见即可得”，为定制客户提供了更多的内容和流量。
-        </div>
-        <div className={styles.level2}>角色</div>
-        <div className={styles.level3}>主力成员</div>
-        <div className={styles.level2}>行动</div>
-        <div className={styles.level3}>
-          在职期间对<span className="mx-1">package.json</span>
-          中的大部分框架和库做了升级和兼容，并且完成
-          <span className="mx-1">90%页面</span>
-          移动端适配
-        </div>
-        <div className={styles.level3}>
-          集成<span className="mx-1">Sentry</span>
-          并通过开发的错误通知服务，实现<span className="mx-1">异常上报</span>
-          功能，及时处理错误，使得项目异常<span className="ml-1">减少了 80%</span>
-        </div>
-        <div className={styles.level3}>
-          接入了第三方插件<span className="mx-1">swagger-axios-codepen</span>，通过 swagger
-          接口文档自动生成接口函数，并且自动注入，为后续团队开发周期节约了大概
-          <span className="mx-1">20%</span>时间
-        </div>
-        <div className={styles.level3}>
-          对代码进行<span className="ml-1">全路由分割</span>，提升用户体验，配合
-          <span className="ml-1">chunk 分包加载</span>，带来比较大的性能收益，
-          <span className="mr-1">FCP 时间</span>从平均<span className="mx-1">4.1s</span>下降到平均
-          <span className="ml-1">1.1s</span>
-        </div>
-        <div className={styles.level2}>遇到的挑战</div>
-        <div className={styles.level3}>
-          素材上传功能，接入<span className="mx-1">ImageMagick</span>的 wasm 版本，读取 icc
-          配置文件，实现了在线的
-          <span className="ml-1">cmyk 转 rgb</span>，从而解决了浏览器不支持直接解析 cmyk
-          格式的图片的问题
-        </div>
-        <div className={styles.level2}>结果</div>
-        <div className={styles.level3}>
-          <span className="mx-1">全路由分割</span>配合
-          <span className="mx-1">分包加载</span>
-          带来巨大提升，根据小样本数据统计，北美地区平均加载速度从
-          <span className="mx-1">5.7s</span>
-          下降到<span className="ml-1">2.7s</span>，马来西亚、越南地区平均加载速度从
-          <span className="mx-1">4.5s</span>下降到 <span className="ml-1">2.1s</span>
         </div>
       </div>
       <div className={styles.project}>

@@ -5,36 +5,34 @@ import styles from "./index.module.scss";
 export const SkillList: React.FC = () => {
   return (
     <div className={clsx(styles.socialInfo)}>
-      <div className={styles.title}>相关技能</div>
+      <div className={styles.title}>related skill</div>
       <ul>
         <li>
-          <span className="mr-1">antd</span>团队成员、<span className="mr-1">ahooks</span>
-          团队成员，活跃于<span className="mx-1">GitHub</span>开源社区，给
-          <span className="ml-1">Next.js</span>、<span className="mr-1">Vite</span>
-          等众多知名大型开源库贡献过 PR
+          <span className="mr-1">antd</span>team core member、<span className="mr-1">ahooks</span>
+          team core member, Active in the GitHub community, contributing PRs to Next.js, Vite, and
+          many other well-known open source libraries.
         </li>
         <li>
-          熟悉<span className="mx-1">React</span>及其原理，参与过
-          <span className="mx-1">React 官方文档</span>
-          翻译工作，熟悉<span className="ml-1">TypeScript</span>，拥有丰富的
-          <span className="mx-1">React + TS</span>
-          实战经验
+          Familiar with React and its principles, participated in the translation of React official
+          documents, familiar with TypeScript, and has rich practical experience in React + TS.
         </li>
         <li>
-          熟悉前端性能优化的实现，例如<span className="ml-1">代码优化</span>、<span>打包优化</span>
-          、<span>资源优化</span>，能结合实际业务场景进行优化
+          Familiar with front-end performance optimisation, e.g. code optimisation, packaging
+          optimisation, resource optimisation, and able to optimise in conjunction with practical
+          business scenarios.
         </li>
         <li>
-          熟悉<span className="mx-1">webpack / vite</span>等打包工具的基本配置， 能够对以上工具进行
-          <span className="ml-1">二次封装</span>、基于以上工具搭建通用的开发环境
+          Familiar with the basic configuration of webpack / vite, the ability to the above tools
+          for the second package, based on the above tools to build a common development
+          environment.
         </li>
         <li>
-          熟悉<span className="mx-1">prettier / eslint</span>基本配置，有良好且严格的编码习惯，
-          <span>唯客户论</span>，<span>实用主义者</span>
+          Familiar with prettier / eslint basic configuration, good and strict coding habits,
+          customer-oriented, pragmatist.
         </li>
         <li>
-          熟悉代码开发到上线全流程，对<span className="ml-1">协同开发</span>，<span>分支管理</span>
-          ，<span className="mr-1">项目配置</span>等都有较深刻的最佳实践
+          Familiar with the whole process of code development to go-live, and have deep best
+          practices on collaborative development, branch management, project configuration, etc.
         </li>
       </ul>
     </div>

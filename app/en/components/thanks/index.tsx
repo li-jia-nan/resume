@@ -5,8 +5,11 @@ import styles from "./index.module.scss";
 export const Thanks: React.FC = () => {
   return (
     <div className={clsx(styles.thanks)}>
-      <div className={clsx(styles.title)}>致谢</div>
-      <div className={clsx(styles.item)}>感谢您花时间阅读我的简历，期待有机会能和您共事。</div>
+      <div className={clsx(styles.title)}>a thanks</div>
+      <div className={clsx(styles.item)}>
+        Thank you for taking the time to read my CV, and I look forward to the opportunity to work
+        with you.
+      </div>
     </div>
   );
 };

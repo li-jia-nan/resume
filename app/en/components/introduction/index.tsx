@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import clsx from "clsx";
 import React from "react";
 import styles from "./index.module.scss";
@@ -5,10 +6,14 @@ import styles from "./index.module.scss";
 export const Introduction: React.FC = () => {
   return (
     <p className={clsx(styles.introduction)}>
-      4年前端经验，拥有 2B/2C 多个项目经验，拥有丰富的 React + TS
-      实践经验，积极参与行业内优秀前端技术框架开源共建，目前是 AntDesign 全球 49
-      名核心成员之一、ahooks
-      核心成员之一，乐于分享、对新技术保持高度敏感，喜欢钻研前沿优秀技术，喜欢研究一些优秀框架的源码，并梳理沉淀成技术文章和团队成员一起成长，有较强的技术判断力和业务敏锐度。
+      4+ years of front-end experience, with 2B/2C multiple project experience, with rich React + TS
+      practical experience, actively participate in the industry's excellent front-end technology
+      framework open source co-construction, is one of the 49 core members of AntDesign global, is
+      also one of the core members of the ahooks, willing to share, to maintain a high degree of
+      sensitivity to new technologies, like to study cutting-edge technology, like to study some of
+      the excellent framework of the source code, and sorted out the precipitation into a technical
+      article and team members to grow together, have a stronger technical judgement and business
+      acumen.
     </p>
   );
 };
