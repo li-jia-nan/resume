@@ -8,7 +8,12 @@ export const ProjectExperience: React.FC = () => {
     <div className={clsx(styles.projects)}>
       <div className={clsx(styles.title)}>Project experience</div>
       <div className={styles.project}>
-        <div className={styles.level1}>DTable</div>
+        <div className={styles.level1}>
+          DTable
+          <a href="https://dtable.cloud" target="_blank">
+            https://dtable.cloud
+          </a>
+        </div>
         <div className={styles.level2}>Project background</div>
         <div className={styles.level3}>
           In order to enhance the commercialization of Kangaroo Cloud's EzMicro Division and expand
@@ -83,7 +88,10 @@ export const ProjectExperience: React.FC = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.level1}>
-          ant-design <span>(Core contributors)</span>
+          ant-design (core contributors)
+          <a href="https://ant.design" target="_blank">
+            https://ant.design
+          </a>
         </div>
         <div className={styles.level2}>Project background</div>
         <div className={styles.level3}>

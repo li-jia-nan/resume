@@ -16,7 +16,7 @@ const workList = [
     ],
   },
   {
-    name: "yoycol",
+    name: "Yoycol",
     time: "2019/11 - 2021/11",
     title: "Front-End Engineer",
     department: "R&D Centre front-end group",

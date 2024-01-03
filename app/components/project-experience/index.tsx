@@ -7,7 +7,12 @@ export const ProjectExperience: React.FC = () => {
     <div className={clsx(styles.projects)}>
       <div className={clsx(styles.title)}>项目经历</div>
       <div className={styles.project}>
-        <div className={styles.level1}>DTable 协同文档</div>
+        <div className={styles.level1}>
+          DTable
+          <a href="https://dtable.cloud" target="_blank">
+            https://dtable.cloud
+          </a>
+        </div>
         <div className={styles.level2}>背景</div>
         <div className={styles.level3}>
           为提升袋鼠云旗下易知微事业部<span className="ml-1">商业化变现</span>
@@ -83,7 +88,12 @@ export const ProjectExperience: React.FC = () => {
         </div>
       </div>
       <div className={styles.project}>
-        <div className={styles.level1}>Yoycol</div>
+        <div className={styles.level1}>
+          Yoycol
+          <a href="https://yoycol.com" target="_blank">
+            https://yoycol.com
+          </a>
+        </div>
         <div className={styles.level2}>背景</div>
         <div className={styles.level3}>
           这是一款面向海外市场的大型跨境电商服务平台。拥有数百万用户和上万种商品。实现了“可见即可得”，为定制客户提供了更多的内容和流量。
@@ -132,7 +142,10 @@ export const ProjectExperience: React.FC = () => {
       </div>
       <div className={styles.project}>
         <div className={styles.level1}>
-          ant-design<span>（核心贡献者）</span>
+          ant-design
+          <a href="https://ant.design" target="_blank">
+            https://ant.design
+          </a>
         </div>
         <div className={styles.level2}>背景</div>
         <div className={styles.level3}>
