@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 const dataLst = [
   { name: "GitHub", link: "https://github.com/li-jia-nan" },
-  { name: "linkedin", link: "https://www.linkedin.com/in/%E5%98%89%E7%94%B7-%E6%A0%97-1a0899278" },
+  { name: "Linkedin", link: "https://www.linkedin.com/in/li-jia-nan" },
 ];
 
 export const SocialInfo: React.FC = () => {

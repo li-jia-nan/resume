@@ -4,6 +4,7 @@ import clsx from "clsx";
 
 const dataLst = [
   { name: "GitHub", link: "https://github.com/li-jia-nan" },
+  { name: "Linkedin", link: "https://www.linkedin.com/in/li-jia-nan" },
   { name: "掘金", link: "https://juejin.cn/user/782508010775198/posts" },
 ];
 
