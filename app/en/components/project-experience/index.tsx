@@ -110,8 +110,8 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>Action</div>
         <div className={styles.level3}>
           Business-driven open source: actively summarized some problems encountered in business
-          development, submitted more than 550 PRs to various cardiovascular projects under the antd
-          organization, and contributed 5 new components to antd.
+          development, submitted more than 600 PRs to various cardiovascular projects under the antd
+          organization, and contributed 4 components to antd.
         </div>
         <div className={styles.level3}>
           As the main community developer, participated in the development of some component
