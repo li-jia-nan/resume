@@ -104,14 +104,14 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>My Role</div>
         <div className={styles.level3}>Internal Open Source Contribution Leader</div>
         <div className={styles.level3}>
-          One of 49 global contributors to the ant-design organization and one of 33 global
+          One of 48 global contributors to the ant-design organization and one of 33 global
           contributors to the react-component organization.
         </div>
         <div className={styles.level2}>Action</div>
         <div className={styles.level3}>
           Business-driven open source: actively summarized some problems encountered in business
-          development, submitted more than 600 PRs to various cardiovascular projects under the antd
-          organization, and contributed 4 components to antd.
+          development, submitted more than 700+ PRs to various cardiovascular projects under the
+          antd organization, and contributed 4 components to antd.
         </div>
         <div className={styles.level3}>
           As the main community developer, participated in the development of some component

@@ -159,13 +159,13 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level3}>
           ant-design 组织
-          <span className="mx-1">全球 49 名核⼼贡献者</span>之一，react-component 组织
+          <span className="mx-1">全球 48 名核⼼贡献者</span>之一，react-component 组织
           <span className="mx-1">全球 33 名核⼼贡献者</span>之一
         </div>
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
-          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">600 个</span>
+          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">700+ 个</span>
           PR，向 antd 贡献了
           <span className="mx-1">4 个新组件</span>
         </div>
