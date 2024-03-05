@@ -165,7 +165,7 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
-          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">700+ 个</span>
+          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">800+ 个</span>
           PR，向 antd 贡献了
           <span className="mx-1">4 个新组件</span>
         </div>
@@ -175,7 +175,7 @@ export const ProjectExperience: React.FC = () => {
           、参与了
           <span className="mx-1">测试库迁移</span>，将所有
           <span className="mx-1">class 组件</span>重构为<span className="mx-1">function 组件</span>
-          ，并且使用 Typecript 重构了大部分 JavaScript， 将仓库的
+          ，并且使用 TypeScript 重构了大部分 JavaScript， 将仓库的
           <span className="mx-1">ts 覆盖率提升了20%</span>
         </div>
         <div className={styles.level3}>
@@ -196,7 +196,7 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>结果</div>
         <div className={styles.level3}>2022 年加入 ant-design 团队，解决了众多已知问题</div>
         <div className={styles.level3}>
-          2023 年贡献排行榜<span className="ml-1">第6名</span>
+          2023 年贡献排行榜<span className="ml-1">第5名</span>
         </div>
         <div className={styles.level3}>
           为公司各⼤业务系统

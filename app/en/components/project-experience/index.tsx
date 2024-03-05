@@ -110,14 +110,14 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>Action</div>
         <div className={styles.level3}>
           Business-driven open source: actively summarized some problems encountered in business
-          development, submitted more than 700+ PRs to various cardiovascular projects under the
+          development, submitted more than 800+ PRs to various cardiovascular projects under the
           antd organization, and contributed 4 components to antd.
         </div>
         <div className={styles.level3}>
           As the main community developer, participated in the development of some component
           variants, participated in the css var migration, participated in the test library
           migration, refactored all class components into function components, and refactored most
-          of the JavaScript using Typecript, increasing the ts coverage of the repository by 20%.
+          of the JavaScript using TypeScript, increasing the ts coverage of the repository by 20%.
         </div>
         <div className={styles.level3}>
           Take the initiative to take on more community tasks: Use your spare time to take on more
@@ -138,7 +138,7 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level3}>
           Joined the ant-design team in 2022 and solved numerous known issues.
         </div>
-        <div className={styles.level3}>Reach 6th in the contributions list in 2023.</div>
+        <div className={styles.level3}>Reach 5th in the contributions list in 2023.</div>
         <div className={styles.level3}>
           Solved many known problems and provided many convenient and fast new features for the
           company's various business systems.
