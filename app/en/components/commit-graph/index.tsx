@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import React from "react";
-import { datasetList, dayList, monthList } from "./dataset";
+import { datasetList, dayList, monthList } from "@/app/dataset";
 import styles from "./index.module.scss";
 
 export const CommitGraph: React.FC = () => {

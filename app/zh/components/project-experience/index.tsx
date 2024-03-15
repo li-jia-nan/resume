@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./index.module.scss";
+import { ANTD_DESIGN, PR_COUNT, PR_ORDER } from "@/app/dataset";
 
 export const ProjectExperience: React.FC = () => {
   return (
@@ -159,13 +160,14 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level3}>
           ant-design 组织
-          <span className="mx-1">全球 48 名核⼼贡献者</span>之一，react-component 组织
+          <span className="mx-1">全球 {ANTD_DESIGN} 名核⼼贡献者</span>之一，react-component 组织
           <span className="mx-1">全球 33 名核⼼贡献者</span>之一
         </div>
         <div className={styles.level2}>行动</div>
         <div className={styles.level3}>
           业务驱动开源：积极总结业务开发中遇到的⼀些问题，向 antd 组织下的
-          <span className="mx-1">多个核⼼项⽬</span>提交了超过<span className="mx-1">800+ 个</span>
+          <span className="mx-1">多个核⼼项⽬</span>提交了超过
+          <span className="mx-1">{PR_COUNT}+ 个</span>
           PR，向 antd 贡献了
           <span className="mx-1">4 个新组件</span>
         </div>
@@ -196,7 +198,7 @@ export const ProjectExperience: React.FC = () => {
         <div className={styles.level2}>结果</div>
         <div className={styles.level3}>2022 年加入 ant-design 团队，解决了众多已知问题</div>
         <div className={styles.level3}>
-          2023 年贡献排行榜<span className="ml-1">第5名</span>
+          2023 年贡献排行榜<span className="ml-1">第{PR_ORDER}名</span>
         </div>
         <div className={styles.level3}>
           为公司各⼤业务系统

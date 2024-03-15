@@ -2258,3 +2258,11 @@ export const monthList = [
   { value: "Oct", colSpan: 5 },
   { value: "Nov", colSpan: 2 },
 ];
+
+export const YEAR = 4;
+
+export const ANTD_DESIGN = 48;
+
+export const PR_COUNT = 800;
+
+export const PR_ORDER = 5;
