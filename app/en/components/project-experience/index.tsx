@@ -7,8 +7,8 @@ export const ProjectExperience: React.FC = () => {
   return (
     <div className={clsx(styles.projects)}>
       <div className={clsx(styles.title)}>Project experience</div>
-      <div className={styles.project}>
-        <div className={styles.level1}>
+      <div className={clsx(styles.project)}>
+        <div className={clsx(styles.level1)}>
           DTable
           <a href="https://dtable.cloud" target="_blank">
             https://dtable.cloud
@@ -16,14 +16,14 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level2}>Project background</div>
         <div className={styles.level3}>
-          In order to enhance the commercialization of Kangaroo Cloud's EzMicro Division and expand
-          the new product category "Collaboration Documents", the team in this category has no
-          front-end technology accumulation and cannot support the business demand pressure, and
-          urgently needs a standardized, functionally complete, highly customizable, and
-          continuously iterative internal collaboration tool with a compatible technology stack.
-          Since there is no library on the market that meets this need, it was decided to develop
-          its own collaboration documentation to meet the business requirements and to be highly
-          scalable and maintainable.
+          In order to enhance the commercialization of DTstack Easyv Division and expand the new
+          product category "Collaboration Documents", the team in this category has no front-end
+          technology accumulation and cannot support the business demand pressure, and urgently
+          needs a standardized, functionally complete, highly customizable, and continuously
+          iterative internal collaboration tool with a compatible technology stack. Since there is
+          no library on the market that meets this need, it was decided to develop its own
+          collaboration documentation to meet the business requirements and to be highly scalable
+          and maintainable.
         </div>
         <div className={styles.level2}>My Role</div>
         <div className={styles.level3}>
@@ -76,14 +76,14 @@ export const ProjectExperience: React.FC = () => {
         </div>
         <div className={styles.level2}>Results</div>
         <div className={styles.level3}>
-          Successfully went live and hosted over 18w+/month approvals in Kangaroo Cloud
+          Successfully went live and hosted over 18w+/month approvals in DTstack.
         </div>
         <div className={styles.level3}>
           Highly portable, highly decoupled from the UI layer, and highly extensible forms engine
           for rapid import, extension, and customization across a wide range of related businesses.
         </div>
         <div className={styles.level3}>
-          The only large front-end project in the Group so far submitted for commercialization
+          The only large front-end project in the Group so far submitted for commercialization.
         </div>
       </div>
       <div className={styles.project}>
