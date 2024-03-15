@@ -16,6 +16,7 @@ export const PersonInfo: React.FC = () => {
       <div className={styles.contact}>
         <div className={styles.item}>
           <InternalPhoneOutlined />
+          +86 19941208872
         </div>
         <div className={styles.item}>
           <InternalWechatOutlined />
