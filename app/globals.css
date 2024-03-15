@@ -16,9 +16,10 @@ p {
   padding: 0;
 }
 
+html,
 body {
   margin: 0;
-  padding: 20px 0;
+  padding: 0;
 }
 
 span.mx-1 {
