@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   description: "resume",
 };
 
-function RootLayout({ children }: React.PropsWithChildren) {
+const RootLayout = ({ children }: React.PropsWithChildren) => {
   return (
     <html lang="en">
       <body className={clsx(inter.className)}>{children}</body>
     </html>
   );
-}
+};
 
 export default RootLayout;

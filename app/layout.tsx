@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   description: "个人简历",
 };
 
-function RootLayout({ children }: React.PropsWithChildren) {
+const RootLayout = ({ children }: React.PropsWithChildren) => {
   return (
     <html lang="en">
       <body className={clsx(inter.className)}>{children}</body>
     </html>
   );
-}
+};
 
 export default RootLayout;
