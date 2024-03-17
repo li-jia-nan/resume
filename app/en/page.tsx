@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import clsx from "clsx";
 import {
   CommitGraph,
   PersonInfo,
@@ -13,7 +14,7 @@ import {
 import styles from "./index.module.scss";
 
 const App: NextPage = () => (
-  <div className={styles.box}>
+  <div className={clsx(styles.contentBox)}>
     <PersonInfo />
     <CommitGraph />
     <Introduction />
